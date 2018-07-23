@@ -2,7 +2,7 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
   "parameters": {
-    "vnetName": { "value": "cyclevnet" },
+    "vnetName": { "value": "gluster-vnet" },
     "adminJbIPName": { "value": "adminjb_ip" },
     "adminjbvmSize": { "value": "Standard_D2" },
     "adminjbvmStorage": { "value": "Standard_LRS" },
@@ -11,6 +11,6 @@
     "cycleIPName": { "value": "cycleserver_ip" },
     "cycleDownloadUri": { "value": "https://cycleclouddownload.blob.core.windows.net/cyclecloud680" },
     "cycleLicenseURL": {"value": "https://cyclecloudlicense.blob.core.windows.net/license/license.dat?se=2018-06-30&sp=r&sv=2017-04-17&sr=b&sig=nCtLPUSjS7PaOcyq8R6IU32KY/LBktQakyKpnxXtXHE%3D"},
-    "rsaPublicKey": { "value": "ssh-rsa <your key>"}
+    "rsaPublicKey": { "value": "ssh-rsa file:///Users/CrunchYard/.ssh/id_rsa.pub"}
   }
 }
