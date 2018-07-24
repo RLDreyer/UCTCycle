@@ -85,7 +85,7 @@
     "cyclevmStorage": "[parameters('cyclevmStorage')]",
     "cycleName": "cycleserver",
     "cycleNic": "cycle-nic",
-    "cycle_nsg_name": "cycle-nsg",
+    "cycle_nsg_name": "gluster1-nsg",
     "cycle_subnet": "cycle",
 
     "cycleInstallScript": ["[uri(deployment().properties.templateLink.uri, 'cyclecloud_install.sh')]"],
@@ -205,7 +205,7 @@
             "createOption": "FromImage",
             "caching": "ReadWrite",
             "managedDisk": {
-              "storageAccountType": "[variables('cyclevmStorage')]"  
+              "storageAccountType": "[variables('glusterdiag930')]"  
             }
           },
           "dataDisks": [
