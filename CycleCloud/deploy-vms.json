@@ -78,7 +78,7 @@
     "adminjbvmStorage": "[parameters('adminjbvmStorage')]",
     "adminjbName": "adminjb",
     "adminjbNic": "adminjb-nic",
-    "admin_nsg_name": "admin-nsg",
+    "admin_nsg_name": "gluster1-nsg",
     "admin_subnet": "admin",
 
     "cyclevmSize": "[parameters('cyclevmSize')]",
